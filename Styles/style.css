@@ -1,0 +1,159 @@
+.blue{
+    background-color:rgb(0, 3, 36);
+}
+.white{
+    color:white;
+}
+.titleSize{
+    font-size: 25px;
+}
+.blackText{
+    font-family: Dosis;
+}
+.whiteNav{
+    font-size: 20px;
+    color: rgb(245,245,246);
+}
+.navFormat{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width:auto;
+    height:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Dosis;
+
+}
+.logoSize{
+    width: 143px;
+    height:100px
+}
+.navBox{
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+a::first-letter{
+    font-size: 22px;
+}
+.reserveFormat{ 
+    padding-bottom: 0px;
+    padding-inline-start: 7px;
+    padding-inline-end: 15px;
+    outline: 3px solid white ;
+}
+.headerSize{
+    width:100%;
+    object-fit:cover;
+    object-position:0 1;
+    height:700px;
+}
+.blueText{
+    font-size:45px;
+    font-family: Dosis;
+}
+.right{
+    display:flex;
+    justify-content: right;
+}
+.left{
+    display:flex;
+    justify-content:left;
+}
+.center{
+    display:flex;
+    justify-content:center;
+}
+.centered {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .blueTransparent{
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .chairFormat{
+      padding-top:80px;
+      padding-bottom:80px;
+      width: 250px;
+      height: 500px;
+  }
+  .centerBody{
+    align-self:flex-start;
+    justify-content: flex-start;
+  }
+  .bodyText{
+    font-size:16px;
+  }
+  .awardFormat{
+    width:200px;
+    height:auto;
+    padding-inline: 20px;
+  }
+  .roomFormat{
+    
+    height: 650px;
+    background-image: url('/hotelMarkupAssets/bg2.jpg');
+  }
+  .roomTitle{
+    font-family: Dosis;
+    font-size:35px;
+      padding-top:20px;
+}
+.cardFormat{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    align-self: flex-start;
+}
+.roomText{
+    font-size:10px;
+    font-family:Source Sans Pro;
+}
+.infoText{
+    font-family:Source Sans Pro;
+    font-size:16px;
+    font-weight: bold;
+}
+.reserveButton{
+    background: #004CC7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.reserveText{
+    text-align: left;
+font: normal normal bold 20px/25px Source Sans Pro;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.packageTitle{
+    padding-top:100px;
+    font-family: Dosis;
+    font-size:35px;
+}
+.packagepicFormat{
+    width: 700px;
+    height: 254px;
+    padding-right:20px;
+    padding-left:100px;
+}
+.bodyTitle{
+    display:flex;
+    font-size:25px;
+    justify-content: left;
+    font-family:Dosis;
+}
+.priceFormat{
+    color:#1F51A8;
+    font-family:Source Sans Pro;
+    font-size:16px;
+}
+.packageBody{
+    font-family:Source Sans Pro;
+    font-size:16px;
+}
